@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Game</title>
+    <style>
+        #div1 {
+            background-color: black;
+            width: 400px;
+            height: 180px;
+            position: relative;
+            top: 50px;
+            left: 45px;
+        }
+        #circle {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 10px solid palevioletred;
+
+        }
+        #square {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 68%;
+            bottom: 30%;
+            border: 10px solid palevioletred;
+
+        }
+        #triangle-up {
+            width: 0;
+            height: 0;
+            border-left: 50px solid transparent;
+            border-right: 50px solid transparent;
+            border-bottom: 100px solid palevioletred;
+            position: absolute;
+            left: 43%;
+            top: 18%;
+            margin: -25px 25px 25px -25px
+        }
+        #text {
+            color: white;
+            font-weight: 600;
+            font-size: xx-large;
+            padding-left: 23%;
+            padding-top: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <div id="circle"></div>
+        <div id="triangle-up"></div>
+        <div id="square"></div>
+        <div id="text">SQUID GAME</div>
+    </div>
+</body>
+</html>
